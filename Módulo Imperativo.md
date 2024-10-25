@@ -1,38 +1,28 @@
-# Módulo Imperativo - TALLER (Pascal)
-
-Created: September 3, 2024 6:12 PM
-Clase: TALLER
-Tipo: Curso
-Reviewed: No
-
-<aside>
-📌 **RESUMEN:**
+# Módulo Imperativo - (Pascal)
 
 </aside>
 
 ## Guia de Estudio:
 
 - Algoritmos de Ordenación
-    - [x]  Selección (vectores)  [Ordenación por Selección](https://www.notion.so/Ordenaci-n-por-Selecci-n-42110302d38a466fb3d60bd558adaed3?pvs=21)
-    - [ ]  Inserción (vectores) [Ordenación por Inserción](https://www.notion.so/Ordenaci-n-por-Inserci-n-6abfeae9104e4938ba234df4ec617a16?pvs=21)
+    - Selección (vectores)
+    - Inserción (vectores)
 - Recursión
-    - [x]  Listas
-    - [x]  Vectores
+    - Listas
+    - Vectores
 - Árboles
-    - [x]  Insertar Hijos
-    - [ ]  Borrar Elemento
-    - [x]  Buscar en arbol
-    - [ ]  Calcular Max/ Min
-    - [x]  Imprimir entre valores
-    - [ ]  Imprimir por nivel
-    - [x]  Recorridos
+    - Insertar Hijos
+    - Borrar Elemento
+    - Buscar en arbol
+    - Calcular Max/ Min
+    - Imprimir entre valores
+    - Imprimir por nivel
+    - Recorridos
 - Extras
-    - [ ]  Minimos
-    - [ ]  Máximos
+    - Minimos
+    - Máximos
 
-## Notas:
-
-### Algoritmos de Ordenación
+## Algoritmos de Ordenación
 
 ### Ordenación por Selección
 
@@ -87,7 +77,7 @@ begin
 end;
 ```
 
-### Recursión
+## Recursión
 
 ### Listas
 
@@ -120,7 +110,7 @@ begin
 end;
 ```
 
-### Arboles
+## Arboles
 
 ### Generar Hoja
 
@@ -277,11 +267,3 @@ begin
 end;
 ```
 
-### Recall
-
-*Escribir 3 preguntas para tu futuro yo*
-
-### Notas
-
-- 
--
