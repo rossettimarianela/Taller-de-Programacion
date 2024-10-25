@@ -1,5 +1,7 @@
-# Taller de Programacion
+## Taller de Programación
 *Apuntes apuntes y más apuntes!*
 
-> Recomiendo no tomarse con seriedad mis apuntes, ya que son personalizados a mi beneficio!
+> [!IMPORTANT]
+> Estos apuntes estan hechos para mi entendimiento, recomiendo asistir a las clases.
+
 
