@@ -62,27 +62,23 @@
 
 **Manipulación de variables**
 
-| **Operadores aritmeticos (Tipos de datos numericos)**
-`+ Suma`
-`- Resta`
-`* Multiplicación`
-`/ División`
-`% Resto` | **Operadores unarios aritmeticos (Tipos de datos numericos)**
-`++ (operador de ingremento)`
-`-- (operador de decremento)` |
-| --- | --- |
-| **Operadores Relacionales (Tipos de datos primitivos)**
-`== Igual`
-`!= Distinto`
-`> Mayor`
-`>= Mayor Igual`
-`< Menor`
-`<= Menor Igual` | **Operadores condicionales**
-`&& AND`
-`|| OR`
-`! NOT`
-**Operador de concatenación para String**
-`+ Operador de concatenación de Strings` |
+| **Operadores aritméticos (Tipos de datos numéricos)**          | **Operadores unarios aritméticos (Tipos de datos numéricos)**        |
+| -------------------------------------------------------------- | -------------------------------------------------------------------- |
+| `+` Suma                                                      | `++` Operador de incremento                                          |
+| `-` Resta                                                     | `--` Operador de decremento                                         |
+| `*` Multiplicación                                            |                                                                    |
+| `/` División                                                 |                                                                    |
+| `%` Resto                                                    |                                                                    |
+
+| **Operadores Relacionales (Tipos de datos primitivos)**       | **Operadores condicionales**                                        |
+| -------------------------------------------------------------- | -------------------------------------------------------------------- |
+| `==` Igual                                                    | `&&` AND                                                            |
+| `!=` Distinto                                                 | `||` OR                                                             |
+| `>` Mayor                                                    | `!` NOT                                                             |
+| `>=` Mayor Igual                                             |                                                                    |
+| `<` Menor                                                    | **Operador de concatenación para String**                          |
+| `<=` Menor Igual                                             | `+` Operador de concatenación de Strings                           |
+
 
 ## **Libreria “Paquete de lectura”**
 
@@ -169,7 +165,7 @@ dependencias entre las partes del mismo.
 
 <aside>
 
-> ⚙ Son los objetos los que realizan las operaciones (cómputos) 
+> ⚙ Son los objetos los que realizan las operaciones (cómputos). 
 
 </aside>
 
@@ -259,38 +255,45 @@ return "Producto: " + nombre + " vale " + precio;
 
 *También trabajamos con la interacción entre objetos a través del envio de mensajes y delegación de y trabajos en otro objeto que puede ser parte de él mismo o no.* 
 
-![Ejemplo de delegación de tareas. ](image%201.png)
-
-Ejemplo de delegación de tareas. 
-
 ## **Jerarquía y Herencia**
 
-**Herencia**
+###**Herencia**
 
 Solución a muchos elementos repitiendose entre clases. Este mecanismo permite que una clase herede características y comportamiento (atributos y métodos) de otra clase.
 
-## Ventaja: reutilización de código.
+### Ventaja: reutilización de código.
 
-![Definimos una SUPERCLASE figura y definimos clases con esa superclase (madre). Decimos que por ejemplo un triangulo es un triangulo y a su vez es una figura.](image%202.png)
+<p align="center">
+    <img src="https://github.com/user-attachments/assets/5da77691-59b4-4954-959e-e17074e7c023" />
+</p>
+
 
 Definimos una SUPERCLASE figura y definimos clases con esa superclase (madre). Decimos que por ejemplo un triangulo es un triangulo y a su vez es una figura.
 
-Superclase: *define* atributos y comportamiento COMÚN. 
+**Superclase:** *define* atributos y comportamiento COMÚN. 
 
 Subclases de Superclase: *heredan* atributos y metodos de la superclase, *definen* atributos y metodos propios y *definen* constructores. 
 
-![Como se define una superclase. ](image%203.png)
+<p align="center">
+    <img src="https://github.com/user-attachments/assets/249e0554-295e-44b8-b892-2e675da7b2ff" />
+</p>
 
 Como se define una superclase. 
 
-Clases Abstractas
+### Clases Abstractas
 
 Una clase abstracta es una clase que no puede ser instanciada (no se pueden crear objetos de esta clase). Define características y comportamiento común para un conjunto de clases (subclases). Puede definir métodos abstractos (sin implementación) que deben ser implementados por las subclases.
 
-![Ejemplo en clase figura, en este caso, tendremos que definir dentro de cada figura, por ejemplo circulo, la “función” de calcular área ya que esta es distinta para cada figura. El resto es compartido. ](image%204.png)
+<p align="center">
+    <img src="https://github.com/user-attachments/assets/7eac30d7-8d74-4d76-8e26-20930efaf167" />
+</p>
+
 
 Ejemplo en clase figura, en este caso, tendremos que definir dentro de cada figura, por ejemplo circulo, la “función” de calcular área ya que esta es distinta para cada figura. El resto es compartido. 
 
-![image.png](image%205.png)
+<p align="center">
+   <img src="https://github.com/user-attachments/assets/17ac9436-e89e-4dc9-bc44-72609dba7a6e" />
+</p>
+
 
 Con la palabra clave super(..) instancio a la superclase.
