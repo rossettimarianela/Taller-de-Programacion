@@ -1,69 +1,55 @@
 # Módulo Objectos - TALLER (Java)
 
-Created: September 18, 2024 9:08 PM
-Clase: TALLER
-Tipo: Curso
-Reviewed: No
-
-<aside>
-📌 **RESUMEN:**
-
 </aside>
 
 ## Guía de Estudio:
 
 - Java
-    
-    Operadores
-    
-    Libreria (Paquete de Lectura)
-    
-    Estructuras de control
-    
-    Arreglos (vectores)
-    
-    Matrices
-    
+    - Operadores
+    - Libreria (Paquete de Lectura)
+    - Estructuras de control
+    - Arreglos (vectores)
+    - Matrices
+<hr />    
 
-### **Programación Orientada a Objetos en JAVA**
+## **Caracteristicas**
 
-### **Caracteristicas**
+1)  Java es un lenguaje de propósito general.
 
-**1)  Java es un lenguaje de propósito general.**
+2) Permite generar aplicaciones multiplataforma.
 
-**2) Permite generar aplicaciones multiplataforma.**
+3) Plataforma Java
+	- Plataforma de desarollo : ***JDK***
+	- Plataforma de Ejecucion: ***JRE***
 
-**3) Plataforma Java**
 
-- Plataforma de desarollo : ***JDK***
-- Plataforma de Ejecucion: ***JRE***
 
-### **Programa principal**
+## **Programa principal**
 
-**1) *Main* = "Programa principal". *{ }* delimita el cuerpo**
+1) *Main* = "Programa principal". *{ }* delimita el cuerpo
 
-**2) Sentencias de codigo separado por punto y coma *( ; )***
+2) Sentencias de codigo separado por punto y coma *( ; )*
 
-**3) Se recomienda identar el codigo para facilitar su lectura.**
+3) Se recomienda identar el codigo para facilitar su lectura.
 
-**4) Comentarios :**
-
+4) Comentarios :
 - De lineas múltiples `/* Esto es un comentario */`
 - De linea única `//Esto es un comentario`
 
-**5) Case-sensitive(Sensible a las mayúsculas y minúsculas)**
+5) Case-sensitive(Sensible a las mayúsculas y minúsculas)
 
-### **Declaracion de variables**
 
-**1) Se declaran en la zona del codigo**
+## **Declaracion de variables**
+
+1) Se declaran en la zona del codigo
 
 - `Tipo nombre Variable;` (Opcional: dar valor inicial)
 
-**2) Convención de nombres: Comenzar con minúscula, luego cada palabra en mayúscula (CamelCase)**
+2) Convención de nombres: Comenzar con minúscula, luego cada palabra en mayúscula (CamelCase)
 
-**3) Asignación: `nombreVariable = valor;`**
+3) Asignación: `nombreVariable = valor;`
 
-**4) Tipos primitivos: La variable almacena un valor**
+4) Tipos primitivos: La variable almacena un valor
 
 | Tipo Primitivo | Ejemplo |
 | --- | --- |
@@ -72,7 +58,7 @@ Reviewed: No
 | int | 102 |
 | double | 123,4 |
 
-**5) String para manipular cadenas. Ejemplo "esto es un string"**
+5) String para manipular cadenas. Ejemplo "esto es un string"
 
 **Manipulación de variables**
 
@@ -98,7 +84,7 @@ Reviewed: No
 **Operador de concatenación para String**
 `+ Operador de concatenación de Strings` |
 
-### **Libreria “Paquete de lectura”**
+## **Libreria “Paquete de lectura”**
 
 ```java
 package practica1;
@@ -135,7 +121,7 @@ public class Pruebas
 }
 ```
 
-### **Estructuras de Control**
+## **Estructuras de Control**
 
 ```java
 	if (/* CONDICIÓN */) {
@@ -148,7 +134,7 @@ public class Pruebas
 	}while(/* CONDICIÓN */)
 ```
 
-### **Arreglos**
+## **Arreglos**
 
 - Almacenan un número fijo de valores primitivos u Objetos (del mismo tipo)
 - Acceso de forma directa a las posiciones
@@ -157,7 +143,7 @@ public class Pruebas
 - Declararcion `int [] contador = new int[10];`
 - Carga `for (int i= 0; i < 10; i++) { contador[i]=i // o el dato a almacenar }`
 
-### **Matrices**
+## **Matrices**
 
 - Colección ordenada e indexada de elementos.
 - Estructura de datos compuesta que se puede acceder utilizando ***dos índices (filas y columnas)***
@@ -170,7 +156,7 @@ public class Pruebas
 - Declaracion `int[][] tabla = new int[10][10];`
 - Carga `for (i=0; i< DFi; i++) for(j=0; j< dfJ; j++) tabla[i][j]= GeneradorAleatorio.generarInt(10);`
 
-### **Programación Orientada a Objetos en JAVA (Teoría)**
+## **Programación Orientada a Objetos en JAVA (Teoría)**
 
 Paradigmas de la programación: imperativo, objetos, funcional, lógica.
 
@@ -218,7 +204,7 @@ Métodos:
 
 `System.out.print(test1.toUpperCase());` // out HOLA.
 
-### **¿Cómo crear una clase?**
+## **¿Cómo crear una clase?**
 
 Tenemos que pensar que es un molde para hacer algo.
 public class NombreDeClase {
@@ -280,7 +266,7 @@ return "Producto: " + nombre + " vale " + precio;
 
 Ejemplo de delegación de tareas. 
 
-### **Jerarquía y Herencia**
+## **Jerarquía y Herencia**
 
 **Herencia**
 
