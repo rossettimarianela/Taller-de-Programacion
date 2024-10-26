@@ -168,15 +168,12 @@ Encapsulamiento de Información: Se oculta la implementación del objeto hacia e
 dependencias entre las partes del mismo.
 
 <aside>
-⚙ Son los objetos los que realizan las operaciones (cómputos)
+
+> ⚙ Son los objetos los que realizan las operaciones (cómputos) 
 
 </aside>
 
 Una clase es por así decir, el molde por donde construimos objetos: conjunto de objetos comunes. El objeto es una instancia de una clase.
-
-![Representación UML de una clase.](image.png)
-
-Representación UML de una clase.
 
 La instanciación se realiza enviando un mensaje de creación a la clase `new NombreObjeto` el cual funciona igual que el new de pascal en pocas palabras. Reserva espacio de memoria para el objeto y la dirección de memoria. 
 
